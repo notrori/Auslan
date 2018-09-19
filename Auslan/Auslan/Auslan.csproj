@@ -11,26 +11,161 @@
 
   <ItemGroup>
     <None Remove="AndroidApiVideo.mp4" />
+    <None Remove="videos\Alphabet\Alphabet - A.mp4" />
+    <None Remove="videos\Alphabet\Alphabet - B.mp4" />
+    <None Remove="videos\Alphabet\Alphabet - C.mp4" />
+    <None Remove="videos\Alphabet\Alphabet - D.mp4" />
+    <None Remove="videos\Alphabet\Alphabet - E.mp4" />
+    <None Remove="videos\Alphabet\Alphabet - F.mp4" />
+    <None Remove="videos\Alphabet\Alphabet - G.mp4" />
+    <None Remove="videos\Alphabet\Alphabet - H.mp4" />
+    <None Remove="videos\Alphabet\Alphabet - I.mp4" />
+    <None Remove="videos\Alphabet\Alphabet - J.mp4" />
+    <None Remove="videos\Alphabet\Alphabet - K.mp4" />
+    <None Remove="videos\Alphabet\Alphabet - L.mp4" />
+    <None Remove="videos\Alphabet\Alphabet - M.mp4" />
+    <None Remove="videos\Alphabet\Alphabet - N.mp4" />
+    <None Remove="videos\Alphabet\Alphabet - O.mp4" />
+    <None Remove="videos\Alphabet\Alphabet - P.mp4" />
+    <None Remove="videos\Alphabet\Alphabet - Q.mp4" />
+    <None Remove="videos\Alphabet\Alphabet - R.mp4" />
+    <None Remove="videos\Alphabet\Alphabet - S.mp4" />
+    <None Remove="videos\Alphabet\Alphabet - T.mp4" />
+    <None Remove="videos\Alphabet\Alphabet - U.mp4" />
+    <None Remove="videos\Alphabet\Alphabet - V.mp4" />
+    <None Remove="videos\Alphabet\Alphabet - W.mp4" />
+    <None Remove="videos\Alphabet\Alphabet - X.mp4" />
+    <None Remove="videos\Alphabet\Alphabet - Y.mp4" />
+    <None Remove="videos\Alphabet\Alphabet - Z.mp4" />
+    <None Remove="videos\Greetings\Greetings - Bad.mp4" />
+    <None Remove="videos\Greetings\Greetings - Combined.mp4" />
+    <None Remove="videos\Greetings\Greetings - Fabulous.mp4" />
+    <None Remove="videos\Greetings\Greetings - Feeling Good.mp4" />
+    <None Remove="videos\Greetings\Greetings - Good.mp4" />
+    <None Remove="videos\Greetings\Greetings - Goodbye.mp4" />
+    <None Remove="videos\Greetings\Greetings - Great.mp4" />
+    <None Remove="videos\Greetings\Greetings - Happy.mp4" />
+    <None Remove="videos\Greetings\Greetings - Hello.mp4" />
+    <None Remove="videos\Greetings\Greetings - How Are You.mp4" />
+    <None Remove="videos\Greetings\Greetings - Name.mp4" />
+    <None Remove="videos\Greetings\Greetings - Nice To Meet You.mp4" />
+    <None Remove="videos\Greetings\Greetings - Sad.mp4" />
+    <None Remove="videos\Greetings\Greetings - See You Later.mp4" />
+    <None Remove="videos\Greetings\Greetings - Sick.mp4" />
+    <None Remove="videos\Greetings\Greetings - Tired.mp4" />
+    <None Remove="videos\Greetings\Greetings - Welcome.mp4" />
+    <None Remove="videos\Numbers\Numbers - 1.mp4" />
+    <None Remove="videos\Numbers\Numbers - 10.mp4" />
+    <None Remove="videos\Numbers\Numbers - 2.mp4" />
+    <None Remove="videos\Numbers\Numbers - 3.mp4" />
+    <None Remove="videos\Numbers\Numbers - 4.mp4" />
+    <None Remove="videos\Numbers\Numbers - 5.mp4" />
+    <None Remove="videos\Numbers\Numbers - 6.mp4" />
+    <None Remove="videos\Numbers\Numbers - 7.mp4" />
+    <None Remove="videos\Numbers\Numbers - 8.mp4" />
+    <None Remove="videos\Numbers\Numbers - 9.mp4" />
+    <None Remove="videos\Numbers\Numbers - Number Sign.mp4" />
+    <None Remove="videos\test.mp4" />
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Include="videos\AndroidApiVideo.mp4" />
+    <EmbeddedResource Include="videos\Alphabet\Alphabet - A.mp4" />
+    <EmbeddedResource Include="videos\Alphabet\Alphabet - B.mp4" />
+    <EmbeddedResource Include="videos\Alphabet\Alphabet - C.mp4" />
+    <EmbeddedResource Include="videos\Alphabet\Alphabet - D.mp4" />
+    <EmbeddedResource Include="videos\Alphabet\Alphabet - E.mp4" />
+    <EmbeddedResource Include="videos\Alphabet\Alphabet - F.mp4" />
+    <EmbeddedResource Include="videos\Alphabet\Alphabet - G.mp4" />
+    <EmbeddedResource Include="videos\Alphabet\Alphabet - H.mp4" />
+    <EmbeddedResource Include="videos\Alphabet\Alphabet - I.mp4" />
+    <EmbeddedResource Include="videos\Alphabet\Alphabet - J.mp4" />
+    <EmbeddedResource Include="videos\Alphabet\Alphabet - K.mp4" />
+    <EmbeddedResource Include="videos\Alphabet\Alphabet - L.mp4" />
+    <EmbeddedResource Include="videos\Alphabet\Alphabet - M.mp4" />
+    <EmbeddedResource Include="videos\Alphabet\Alphabet - N.mp4" />
+    <EmbeddedResource Include="videos\Alphabet\Alphabet - O.mp4" />
+    <EmbeddedResource Include="videos\Alphabet\Alphabet - P.mp4" />
+    <EmbeddedResource Include="videos\Alphabet\Alphabet - Q.mp4" />
+    <EmbeddedResource Include="videos\Alphabet\Alphabet - R.mp4" />
+    <EmbeddedResource Include="videos\Alphabet\Alphabet - S.mp4" />
+    <EmbeddedResource Include="videos\Alphabet\Alphabet - T.mp4" />
+    <EmbeddedResource Include="videos\Alphabet\Alphabet - U.mp4" />
+    <EmbeddedResource Include="videos\Alphabet\Alphabet - V.mp4" />
+    <EmbeddedResource Include="videos\Alphabet\Alphabet - W.mp4" />
+    <EmbeddedResource Include="videos\Alphabet\Alphabet - X.mp4" />
+    <EmbeddedResource Include="videos\Alphabet\Alphabet - Y.mp4" />
+    <EmbeddedResource Include="videos\Alphabet\Alphabet - Z.mp4" />
+    <EmbeddedResource Include="videos\Greetings\Greetings - Bad.mp4" />
+    <EmbeddedResource Include="videos\Greetings\Greetings - Combined.mp4" />
+    <EmbeddedResource Include="videos\Greetings\Greetings - Fabulous.mp4" />
+    <EmbeddedResource Include="videos\Greetings\Greetings - Feeling Good.mp4" />
+    <EmbeddedResource Include="videos\Greetings\Greetings - Good.mp4" />
+    <EmbeddedResource Include="videos\Greetings\Greetings - Goodbye.mp4" />
+    <EmbeddedResource Include="videos\Greetings\Greetings - Great.mp4" />
+    <EmbeddedResource Include="videos\Greetings\Greetings - Happy.mp4" />
+    <EmbeddedResource Include="videos\Greetings\Greetings - Hello.mp4" />
+    <EmbeddedResource Include="videos\Greetings\Greetings - How Are You.mp4" />
+    <EmbeddedResource Include="videos\Greetings\Greetings - Name.mp4" />
+    <EmbeddedResource Include="videos\Greetings\Greetings - Nice To Meet You.mp4" />
+    <EmbeddedResource Include="videos\Greetings\Greetings - Sad.mp4" />
+    <EmbeddedResource Include="videos\Greetings\Greetings - See You Later.mp4" />
+    <EmbeddedResource Include="videos\Greetings\Greetings - Sick.mp4" />
+    <EmbeddedResource Include="videos\Greetings\Greetings - Tired.mp4" />
+    <EmbeddedResource Include="videos\Greetings\Greetings - Welcome.mp4" />
+    <EmbeddedResource Include="videos\Numbers\Numbers - 1.mp4" />
+    <EmbeddedResource Include="videos\Numbers\Numbers - 10.mp4" />
+    <EmbeddedResource Include="videos\Numbers\Numbers - 2.mp4" />
+    <EmbeddedResource Include="videos\Numbers\Numbers - 3.mp4" />
+    <EmbeddedResource Include="videos\Numbers\Numbers - 4.mp4" />
+    <EmbeddedResource Include="videos\Numbers\Numbers - 5.mp4" />
+    <EmbeddedResource Include="videos\Numbers\Numbers - 6.mp4" />
+    <EmbeddedResource Include="videos\Numbers\Numbers - 7.mp4" />
+    <EmbeddedResource Include="videos\Numbers\Numbers - 8.mp4" />
+    <EmbeddedResource Include="videos\Numbers\Numbers - 9.mp4" />
+    <EmbeddedResource Include="videos\Numbers\Numbers - Number Sign.mp4" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Octane.Xam.VideoPlayer" Version="2.2.0" />
+    <PackageReference Include="sqlite-net-pcl" Version="1.5.231" />
     <PackageReference Include="Xamarin.Forms" Version="3.1.0.697729" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Mono.Android">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\ReferenceAssemblies\Microsoft\Framework\MonoAndroid\v8.1\Mono.Android.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
   <ItemGroup>
     <EmbeddedResource Update="alphabet.xaml">
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="glossary.xaml">
+    <EmbeddedResource Update="Greeting.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="GreetingsMenu.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="numbers.xaml">
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="letters.xaml">
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Update="NumbersPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Data\" />
+    <Folder Include="Models\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="numbers.xaml.cs">
+      <DependentUpon>numbers.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
 </Project>

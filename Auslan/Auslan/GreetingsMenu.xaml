@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Auslan.GreetingsMenu">
+    <ContentPage.Content>
+        <StackLayout>
+            <Button x:Name ="badBtn" Text="Bad" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Clicked="Bad" />
+            <Button x:Name ="fabulous" Text="Fabulous" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Clicked="Fabulous" />
+            <Button x:Name ="feelinggood" Text="Feeling Good" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Clicked="FeelingGood" />
+            <Button x:Name ="good" Text="Good" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Clicked="Good" />
+            <Button x:Name ="Bgoodbye" Text="GoodBye" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Clicked="GoodBye" />
+            <Button x:Name ="great" Text="Great" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Clicked="Great" />
+            <Button x:Name ="happy" Text="Happy" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Clicked="Happy" />
+            <Button x:Name ="hello" Text="Hello" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Clicked="Hello" />
+            <Button x:Name ="howareyou" Text="How Are You" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Clicked="HowAreYou" />
+            <Button x:Name ="name" Text="Name" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Clicked="Name" />
+            <Button x:Name ="nicetomeetyou" Text="Nice To Meet You" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Clicked="NiceToMeetYou" />
+            <Button x:Name ="sad" Text="Sad" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Clicked="Sad" />
+            <Button x:Name ="seeyoulater" Text="See You Later" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Clicked="SeeYouLater" />
+            <Button x:Name ="sick" Text="Sick" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Clicked="Sick" />
+            <Button x:Name ="tired" Text="Tired" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Clicked="Tired" />
+            <Button x:Name ="welcome" Text="Welcome" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Clicked="Welcome" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

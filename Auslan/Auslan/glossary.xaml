@@ -4,10 +4,10 @@
              x:Class="Auslan.glossary">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Glossary of Signs"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-            <Button x:Name ="Button" Text="Alphabet" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Clicked="Alphabet" />
+            <Label Text="Glossary of Signs" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" />
+            <Button x:Name ="ButtonGlossary" Text="Alphabet" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Clicked="Alphabet" />
+            <Button x:Name ="ButtonNum" Text="Numbers" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Clicked="Numbers" />
+            <Button x:Name ="ButtonGreet" Text="Greetings" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Clicked="Greeting" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

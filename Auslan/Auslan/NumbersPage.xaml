@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Auslan.NumbersPage">
+    <ContentPage.Content>
+        <ScrollView>
+           <StackLayout>
+            <Button x:Name ="Button1" Text="1" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Clicked="Number1" />
+            <Button x:Name ="Button2" Text="2" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Clicked="Number2" />
+            <Button x:Name ="Button3" Text="3" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Clicked="Number3" />
+            <Button x:Name ="Button4" Text="4" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Clicked="Number4" />
+            <Button x:Name ="Button5" Text="5" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Clicked="Number5" />
+            <Button x:Name ="Button6" Text="6" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Clicked="Number6" />
+            <Button x:Name ="Button7" Text="7" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Clicked="Number7" />
+            <Button x:Name ="Button8" Text="8" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Clicked="Number8" />
+            <Button x:Name ="Button9" Text="9" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Clicked="Number9" />
+            </StackLayout>
+         </ScrollView>
+
+    </ContentPage.Content>
+</ContentPage>

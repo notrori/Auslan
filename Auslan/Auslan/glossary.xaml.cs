@@ -21,5 +21,13 @@ namespace Auslan
         {
             Navigation.PushAsync(new alphabet());
         }
+        private void Numbers(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new NumbersPage());
+        }
+        private void Greeting(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new GreetingsMenu());
+        }
     }
 }

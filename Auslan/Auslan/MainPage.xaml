@@ -6,10 +6,10 @@
 
     <StackLayout>
         <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" 
+        <Label Text="Auslan" 
            HorizontalOptions="Center"
            VerticalOptions="CenterAndExpand" />
-        <Button Text="Glossary" Clicked="Glossarybtn"/>
+        <Button x:Name ="Button" Text="Glossary" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Clicked="Glossarybtn" />
     </StackLayout>
 
 </ContentPage>

@@ -3,9 +3,35 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Auslan.alphabet">
     <ContentPage.Content>
+        <ScrollView>
         <StackLayout>
-            <Button x:Name ="Button" Text="A" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"  />
-            
+            <Button x:Name ="Buttona" Text="A" HorizontalOptions="Center" VerticalOptions="Center" Clicked="LetterA" />
+            <Button x:Name ="Buttonb" Text="B" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Clicked="LetterB" />
+            <Button x:Name ="Buttonc" Text="C" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Clicked="LetterC" />
+            <Button x:Name ="Buttond" Text="D" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Clicked="LetterD" />
+            <Button x:Name ="Buttone" Text="E" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Clicked="LetterE" />
+            <Button x:Name ="Buttonf" Text="F" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Clicked="LetterF" />
+            <Button x:Name ="Buttong" Text="G" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Clicked="LetterG" />
+            <Button x:Name ="Buttonh" Text="H" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Clicked="LetterH" />
+            <Button x:Name ="Buttoni" Text="I" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Clicked="LetterI" />
+            <Button x:Name ="Buttonj" Text="J" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Clicked="LetterJ" />
+            <Button x:Name ="Buttonk" Text="K" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Clicked="LetterK" />
+            <Button x:Name ="Buttonl" Text="L" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Clicked="LetterL" />
+            <Button x:Name ="Buttonm" Text="M" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Clicked="LetterM" />
+            <Button x:Name ="Buttonn" Text="N" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Clicked="LetterN" />
+            <Button x:Name ="Buttono" Text="O" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Clicked="LetterO" />
+            <Button x:Name ="Buttonp" Text="P" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Clicked="LetterP" />
+            <Button x:Name ="Buttonq" Text="Q" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Clicked="LetterQ" />
+            <Button x:Name ="Buttonr" Text="R" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Clicked="LetterR" />
+            <Button x:Name ="Buttons" Text="S" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Clicked="LetterS" />
+            <Button x:Name ="Buttont" Text="T" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Clicked="LetterT" />
+            <Button x:Name ="Buttonu" Text="U" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Clicked="LetterU" />
+            <Button x:Name ="Buttonv" Text="V" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Clicked="LetterV" />
+            <Button x:Name ="Buttonw" Text="W" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Clicked="LetterW" />
+            <Button x:Name ="Buttonx" Text="X" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Clicked="LetterX" />
+            <Button x:Name ="Buttony" Text="Y" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Clicked="LetterY" />
+            <Button x:Name ="Buttonz" Text="Z" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Clicked="LetterZ" />
         </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>
